@@ -1,0 +1,82 @@
+html {
+    font-family: "futura", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    margin-bottom: 25px;
+    border-bottom: dashed 3px;
+    border-color: black;
+    padding-bottom: 3%;
+}
+
+p {
+    font-size: 13pt;
+}
+
+li {
+    font-size: 13pt;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    border: solid 3px black;
+    padding: 2%;
+    margin-bottom: 4%;
+    margin-top: 0px;
+    box-shadow: -15px 15px thistle;
+}
+
+.description {
+    text-align: left;
+    line-height: 30px;
+    margin-top: 8px;
+    max-width: 60ch;
+    margin-left: 5%;
+    margin-right: 10%;
+    float: right;
+}
+
+.titlehead {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    padding: 20px;
+    width: auto;
+    border: none;
+    box-shadow: none;
+}
+
+#attribution {
+    margin-left: 10%;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.image {
+    display: flex;
+    
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+    float: left;
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+#imageSection {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
