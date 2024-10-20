@@ -1,0 +1,135 @@
+html {
+    font-family: "futura", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    margin-bottom: 25px;
+    border-bottom: dashed 3px;
+    border-color: black;
+    padding-bottom: 3%;
+}
+
+h2 {
+    position: absolute;
+    top: -47px;
+    left: 10px;
+}
+
+p {
+    font-size: 13pt;
+}
+
+li {
+    font-size: 13pt;
+}
+
+a:link {
+    color: thistle;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: slategray;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid 3px black;
+    padding: 2%;
+    padding-top: 2%;
+    margin-bottom: 4%;
+    margin-top: 0px;
+    box-shadow: -15px 15px thistle;
+}
+
+.description {
+    text-align: left;
+    line-height: 30px;
+    margin-top: 8px;
+    max-width: 50ch;
+    margin-left: 2%;
+    margin-right: 20%;
+    float: right;
+}
+
+.titlehead {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    padding: 20px;
+    width: auto;
+    border: none;
+    box-shadow: none;
+}
+
+#attribution {
+    margin-left: 20%;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.image {
+    display: flex;
+    width: 250px;
+    height: 300px;
+    justify-content: center;
+    float: left;
+    overflow: hidden;
+    margin: 1%;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+#imageSection {
+    position: absolute;
+    border: none;
+    width: 90%;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    left: 3%;
+}
+
+.imagesection {
+    position: relative;
+    height: 360px;
+}
+
+.label {
+    position: relative;
+    background-color: thistle;
+    height: 3px;
+    margin-top: 4%;
+}
+
+#short {
+    width: 170px;
+}
+
+#shorter {
+    width: 120px;
+}
+
+#long {
+    width: 230px;
+}
+
+#longer {
+    width: 300px;
+}
+
+.imagesection img{
+    float: center;
+}
