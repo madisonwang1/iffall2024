@@ -1,0 +1,437 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_apple {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 100px;
+    font-family: helvetica, sans-serif;
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 11px 30px 0 30px;
+    text-align: center;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    transition: all .5s;
+}
+
+a#btn_apple:hover {
+    padding: 12px 30px 0 30px;
+    max-width: 118px;
+    background-color: black;
+    font-weight: 400;
+    color: white;
+    text-shadow: 0 0 5px lightgoldenrodyellow;
+    border-style: none;
+    box-shadow: 1px 1px 10px rgb(203, 203, 203);
+    display: block;
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow {
+    from {text-shadow: 0 0 15px lightgoldenrodyellow;}
+    50% {text-shadow: 0 0 2px lightgoldenrodyellow;}
+    to {text-shadow: 0 0 15px lightgoldenrodyellow;}
+}
+
+a#btn_newyorker {
+    font-family: "Irvin-Heading";
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    position: relative;
+    top: 40%;
+    padding: 70px 20px 70px 20px;
+    transition: all .5s;
+}
+
+a#btn_newyorker:hover {
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    color: black;
+}
+
+a#btn_moo {
+    font-family: "bryant-web", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    text-decoration: none;
+    color: #008558;
+    z-index: 1;
+    position: relative;
+    top: 45%;
+    transition: all .5s;
+    left: -10px;
+}
+
+.button_container .fa-solid.fa-droplet {
+    content: "\f043";
+    padding-right: 5px;
+    transform: scale(0);
+}
+
+.button_container:hover .fa-solid.fa-droplet {
+    position: absolute;
+    top: 75%;
+    transform: scale(1);
+    left: 35px
+}
+
+a#btn_moo:hover {
+    font-size: 30pt;
+}
+
+a#btn_kittens {
+    font-family: "bebas-neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 30pt;
+    position: relative;
+    top: 43%;
+    transition: color 2s;
+}
+
+a#btn_kittens:hover {
+    color: rgb(237, 85, 29);
+    display: block;
+    animation-name: shake;
+    animation-duration: .1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    from { transform: translate(5px); }
+    33% { transform: translate(-5px); }
+    66% { transform: translate(5px); }
+    to { transform: translate(-5px); }
+}
+
+a#btn_nike {
+    font-family: futura, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    padding: 8px 16px;
+    font-size: 30pt;
+    color: black;
+    position: relative;
+    top: 40%;
+}
+
+a#btn_nike:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 68px;
+    z-index: 1;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    transition: all .5s;
+}
+
+a#btn_nike:hover {
+    color: #fff;
+    font-style: italic;
+}
+
+a#btn_nike:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_nike span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_michael {
+    text-decoration: none;
+    font-family: "mundial", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40pt;
+    color: black;
+    position: relative;
+    top: 33%;
+    left: 3%;
+}
+
+.white {
+    background-color: white;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 11px;
+    left: 43px;
+    z-index: 0;
+    transition: all 1s;
+}
+
+.M {
+    z-index: 500;
+}
+
+.K {
+    width: 0;
+    position: relative;
+    left: -17px;
+    z-index: -1;
+}
+
+a#btn_michael:hover .white {
+    background-color: white;
+    position: absolute;
+    left: 80px;
+}
+
+a#btn_fb {
+    text-decoration: none;
+}
+
+#btn_fb .fa-brands.fa-square-facebook {
+    color: #316FF6;
+    transform: scale(6);
+    margin-top: 120px;
+    transition: all 1s;
+}
+
+.fa-brands.fa-square-facebook:hover { 
+    color: #316FF6;
+    transform: scale(6);
+    display: block;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg) scale(6); }
+    25% { transform: rotate(90deg) scale(6); }
+    50% { transform: rotate(180) scale(6)}
+    75% { transform: rotate(270deg) scale(6); }
+    to { transform: rotate(360deg) scale(6); }
+  }
+
+  a#btn_tesla {
+    font-family: 'TESLA', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+    position: relative;
+    top: 45%;
+    left: 2%;
+    transition: all 1s;
+  }
+
+  a#btn_tesla:hover {
+    color: black;
+    letter-spacing: 10px;
+    position: relative;
+  }
+
+  a#btn_ibm {
+    font-family: "ibm-plex-sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #0530AD;
+    font-size: 60px;
+    position: relative;
+    top: 33%;
+    text-decoration: none;
+    transition: 2s;
+  }
+
+  a#btn_ibm:hover {
+    font-size: 70px;
+    text-shadow: 0 0 10px rgb(191, 191, 191);
+  }
+
+  a#btn_gap {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;  
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #2A3748;
+    color: white;
+    z-index: 1;
+    position: relative;
+    top: 40%;
+    padding: 15px 20px 15px 20px;
+    transition: all .5s;
+}
+
+a#btn_gap:hover {
+    color: #2A3748;
+    border-style: solid;
+    border-width: 6px;
+    background-color: white;
+}
