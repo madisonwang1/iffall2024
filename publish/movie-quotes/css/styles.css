@@ -1,0 +1,56 @@
+h1 {
+
+    font-family: "cc-meltdown", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(230, 230, 255);
+    text-align: center;
+    font-size: 200pt;
+
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30pt;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.speaker {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(235, 198, 250);
+}
+
+.box {
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 50px;
+    width: 650px;
+    height: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.action {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
