@@ -1,0 +1,177 @@
+html {
+    font-family: "ofelia-text", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    width: 1050px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100pt;
+    background: linear-gradient(to right, gray, rgb(255, 255, 255), gray);
+      background-clip: text;
+      color: transparent;
+}
+
+h2 {
+    background: linear-gradient(to right, gray, rgb(255, 255, 255), gray);
+    background-clip: text;
+    color: transparent;  
+    font-size: 80px;
+    position: absolute;
+    top: 78%;
+    left: 8%;
+    z-index: 2;
+}
+
+h3 {
+    background: linear-gradient(to right, gray, rgb(255, 255, 255), gray);
+    background-clip: text;
+    color: transparent;  
+    font-size: 40px;
+    margin: 0;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+
+h4 {
+    font-size: 200px;
+    margin: 0;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: fit-content;
+    top: -90px;
+    color: rgb(29, 29, 29);
+}
+
+section.head {
+    width: 100%;
+    height: 200px;
+    margin-top: 0;
+    margin-bottom: 8%;
+
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+.first {
+    background-image: url(../images/uglybetty1.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+
+.btn-group {
+    margin: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+}
+
+.gradient {
+    position: absolute;
+    width: 100vw;
+    height: 400px;
+    background-image: linear-gradient(to top, rgb(29, 29, 29), rgba(128, 128, 128, 0));
+    top: 542px;
+    z-index: 1;
+}
+
+.flex-grid-thirds {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 0;
+}
+
+.col {
+    width: 30%;
+    height: 20%;
+    position: relative;
+}
+
+.flex-grid-thirds > div > img.special {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-bottom: 150px solid white;
+}
+
+.flex-grid-thirds > div > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border-color: rgb(29, 29, 29);
+    border-width: 5px;
+    border-style: solid;
+}
+
+.recs {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.flex-grid-thirds > div > p.special1 {
+    position: absolute;
+    top: 300px;
+    padding-left: 20px;
+    z-index: 3;
+}
+
+
+.white {
+    background-color: white;
+    height: auto;
+    padding-top: 15%;
+    padding-bottom: .05%;
+    width: 100vw;
+    position: relative;
+}
+
+section.black {
+    background-color: none;
+    height: auto;
+    padding-top: 15%;
+    padding-bottom: .05%;
+    width: 100vw;
+    position: relative;
+}
+
+section.black h4 {
+    color: white;
+}
+
+section.black p {
+    color: white;
+}
+
+section.black img.black {
+    border-color: white;
+}
+
+footer {
+    height: 300px;
+}
+
+.history {
+    color: rgb(255, 255, 255);
+}
