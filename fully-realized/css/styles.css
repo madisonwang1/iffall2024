@@ -1,0 +1,329 @@
+html {
+    font-family: "ofelia-text", sans-serif;
+}
+
+h1 {
+    width: auto;
+    float: right;
+    margin: 0%;
+    margin-right: 5%;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40pt;
+    background: linear-gradient(to right, gray, rgb(255, 255, 255), gray);
+      background-clip: text;
+      color: transparent;
+}
+
+h2 {
+    background: linear-gradient(to right, gray, rgb(255, 255, 255), gray);
+    background-clip: text;
+    color: transparent;  
+    font-size: 75px;
+    position: absolute;
+    top: 78%;
+    left: 5%;
+    z-index: 2;
+}
+
+h3 {
+    background: linear-gradient(to right, gray, rgb(255, 255, 255), gray);
+    background-clip: text;
+    color: transparent;  
+    font-size: 40px;
+    margin: 0;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+
+h4 {
+    font-size: 150px;
+    margin: 0;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: fit-content;
+    top: -70px;
+    color: rgb(29, 29, 29);
+}
+
+section.head {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+.first {
+    background-image: url(../images/uglybetty1.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+
+.btn-group {
+    width: auto;
+    margin-bottom: 0;
+    margin-left: 5%;
+    display: flex;
+    justify-content: left;
+}
+
+div.button {
+    width: 150px;
+    height: 50px;
+    margin-top:15%;
+    margin-right: 10px;
+    border: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gradient {
+    position: absolute;
+    width: 100vw;
+    height: 400px;
+    background-image: linear-gradient(to top, rgb(29, 29, 29), rgba(128, 128, 128, 0));
+    top: 330px;
+    z-index: 1;
+}
+
+.flex-grid-thirds {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 0;
+}
+
+.col {
+    width: 30%;
+    height: 20%;
+    position: relative;
+}
+
+.flex-grid-thirds > div > img.special {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.flex-grid-thirds > div > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border-color: rgb(29, 29, 29);
+    border-width: 5px;
+    border-style: solid;
+}
+
+section.actualfirst {
+    height: auto;
+}
+
+.recs {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.flex-grid-thirds > div > p.special1 {
+    position: absolute;
+    top: 300px;
+    padding-left: 20px;
+    z-index: 3;
+}
+
+
+.white {
+    background-color: white;
+    height: auto;
+    padding-top: 15%;
+    padding-bottom: .05%;
+    width: 100vw;
+    position: relative;
+}
+
+section.black {
+    background-color: none;
+    height: auto;
+    padding-top: 15%;
+    padding-bottom: .05%;
+    width: 100vw;
+    position: relative;
+}
+
+section.black h4 {
+    color: white;
+}
+
+section.black p {
+    color: white;
+}
+
+section.black img.black {
+    border-color: white;
+}
+
+footer {
+    height: 300px;
+}
+
+.history {
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1200px) {
+    h4 {
+        font-size: 90pt;
+        top: -50px;
+    }
+
+}
+
+@media (max-width: 950px) {
+    h4 {
+        font-size: 70pt;
+        top: -40px;
+    }
+    
+}
+
+@media (max-width: 750px) {
+    h4 {
+        font-size: 50pt;
+        top: -30px;
+    }
+}
+
+@media (max-width: 1400px) {
+    h2 {
+        font-size: 50px;
+    }
+}
+
+section.briefhistory {
+    background-color: white;
+    width: 100vw;
+    height: auto;
+    padding-top: 5%;
+    margin-top: 0%;
+    padding-bottom: 5%;
+}
+
+p.history {
+    padding: 2% 5% 0 5%;
+    color: black;
+}
+
+h3.history {
+    margin-left: 5%;
+    margin-top: 0;
+    background: linear-gradient(to right, gray, rgb(255, 255, 255), gray);
+    background-clip: text;
+    color: transparent;  
+    font-size: 40px;
+}
+
+img.briefhistory {
+    float: right;
+    width: 300px;
+    margin: 3% 7% 2% 2%;
+}
+
+h5 {
+    background: linear-gradient(to right, gray, rgb(255, 255, 255), gray);
+    background-clip: text;
+    color: transparent;  
+    font-size: 150px;
+    margin: 0;
+    margin-left: 5%;
+}
+
+.culture img {
+    margin: 5%;
+    margin-top: 0;
+    width: 50%;
+    float: left;
+}
+
+section.culture {
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+
+.culture p {
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 2%;
+    font-size: 14px;
+}
+
+img.economy {
+    float: right;
+}
+
+h5.economy {
+    text-align: right;
+    margin-right: 5%;
+}
+
+@media (max-width: 1000px) {
+    h5 {
+        background: linear-gradient(to right, gray, rgb(255, 255, 255), gray);
+        background-clip: text;
+        color: transparent;  
+        font-size: 100px;
+        margin: 0;
+        margin-left: 5%;
+        }
+    
+}
+
+@media (max-width: 800px) {
+    h5 {
+        background: linear-gradient(to right, gray, rgb(255, 255, 255), gray);
+        background-clip: text;
+        color: transparent;  
+        font-size: 70px;
+        margin: 0;
+        margin-left: 5%;
+        }
+    
+}
+
+@media (max-width: 1100px) {
+    .culture img {
+        width: 90%;
+        margin: 5%;
+        float: none;
+    }
+}
+
+p.special1 {
+    font-size: 10px;
+    margin-top: 0;
+    color: white;
+}
+
+section.maxwidth {
+    height: auto;
+    max-width: 1200px;
+    margin: auto;
+}
